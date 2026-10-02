@@ -1,0 +1,48 @@
+name: Share a plugin / 分享插件
+description: Share a plugin with source, author, license, and compatibility / 提交插件源码、作者、许可和兼容信息。
+title: '[Plugin] '
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Plugin name and version / 插件名与版本
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Author and original source / 作者与原作来源
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source repository / 源码仓库
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose and preview / 用途与预览
+    validations:
+      required: true
+  - type: textarea
+    id: entry
+    attributes:
+      label: Entry, release, and host capabilities / 入口、发布文件及宿主能力
+      description: Explain installation, required capabilities, and exact release identity / 说明安装方式、所需能力及固定发布版本。
+    validations:
+      required: true
+  - type: textarea
+    id: license
+    attributes:
+      label: License and attribution / 许可与署名
+    validations:
+      required: true
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Tested compatibility / 实测兼容性
+      description: State actually tested Pebrel versions/platforms, or explicitly say untested / 列出实际测试过的版本与平台，或明确说明未测试。
+    validations:
+      required: true

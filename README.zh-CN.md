@@ -5,6 +5,9 @@
 这是 [Pebrel Community](https://github.com/pebrel-community) 的插件分享目录。
 用户通过 PR 提交自己的插件项目，登记作者、源码、版本、许可和兼容信息。
 
+可以先在 [作品展示](https://github.com/pebrel-community/plugins/discussions/categories/show-and-tell)
+分享项目，或填写 [插件分享表单](https://github.com/pebrel-community/plugins/issues/new?template=share-plugin.yml)。
+
 **当前阶段：社区初始化，目录为空。** 本仓库不新增执行引擎、权限模型，
 也不宣称应用内插件市场已完成。现有插件能力以
 [主项目插件文档](https://github.com/Kuddev/pebrel/tree/main/nebula_app/src/plugins)

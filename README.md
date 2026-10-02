@@ -13,6 +13,9 @@ Current plugin capabilities are documented in the
 
 ## Share a plugin
 
+Show your work in [Show and tell](https://github.com/pebrel-community/plugins/discussions/categories/show-and-tell),
+or open a [plugin submission](https://github.com/pebrel-community/plugins/issues/new?template=share-plugin.yml).
+
 Keep the source and releases in your own repository. A directory submission
 must identify the name, author, source, license, version, entry point, required
 host capabilities, and actually tested Pebrel versions and platforms.
