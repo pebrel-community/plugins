@@ -1,4 +1,44 @@
 {
   "schema_version": 1,
-  "plugins": []
+  "plugins": [
+    {
+      "id": "vauntlekv/pebrel-pi-wsl",
+      "name": "pebrel-pi-wsl",
+      "kind": "integration",
+      "runtime": "pi",
+      "description": "Pi extension that reports WSL session and task lifecycle events to Pebrel through its authenticated OSC hook channel.",
+      "author": {
+        "name": "VauntlekV",
+        "github": "VauntlekV"
+      },
+      "source": "https://github.com/VauntlekV/pebrel-pi-wsl",
+      "license": "GPL-3.0-only",
+      "version": "0.1.0",
+      "tag": "v0.1.0",
+      "revision": "1ebea7a9d033515bfc3766b6dc4ac0bdce613f06",
+      "entry": "index.ts",
+      "documentation": "entries/pebrel-pi-wsl.md",
+      "installation": {
+        "manager": "pi",
+        "command": "pi install git:github.com/VauntlekV/pebrel-pi-wsl@v0.1.0"
+      },
+      "requirements": {
+        "host": "Windows with WSL",
+        "pebrel_ai_hook": true,
+        "node": ">=22.19.0"
+      },
+      "compatibility": {
+        "evidence": "author_reported",
+        "pebrel": "2.1.1",
+        "pi": "1.0.0",
+        "distribution": "Debian WSL2",
+        "community_runtime_verified": false
+      },
+      "review": {
+        "scope": "repository metadata, license, entry source, and version tag",
+        "reviewed_at": "2026-10-02",
+        "code_executed": false
+      }
+    }
+  ]
 }
